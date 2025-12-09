@@ -1,16 +1,23 @@
-# couldai_user_app
+# Oman Service
 
-A new Flutter project.
+A Flutter app for finding and adding service providers in Oman.
+
+## Features
+
+- 4 service categories: Plumber, Electrician, AC Technician, Cleaning Services
+- Add your service with name, phone, city, and description
+- Search services by category, city, or text
+- Contact providers via call or WhatsApp
+- AdMob banner and interstitial ads
+- Supports all major cities in Oman
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. Install dependencies: `flutter pub get`
+2. Run the app: `flutter run`
 
-A few resources to get you started if this is your first Flutter project:
+## AdMob Setup
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Replace the test ad unit IDs with your own AdMob ad unit IDs:
+- Banner Ad: `ca-app-pub-3940256099942544/6300978111`
+- Interstitial Ad: `ca-app-pub-3940256099942544/1033173712`
